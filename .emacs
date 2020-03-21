@@ -51,7 +51,7 @@
 (define-skeleton org-skeleton
   "Header info for a emacs-org file."
   "Title: "
-  "#+TITLE:" str " \n"
+  "#+TITLE: " str " \n"
   "#+AUTHOR: Alexander Phillips\n"
   "#+EMAIL: alexander@keemail.me\n"
   "-----"
