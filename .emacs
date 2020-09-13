@@ -91,6 +91,10 @@
 ;; This part is used for encrypting org files with EasyPG.
 (require 'epa-file)
 (epa-file-enable)
+;; The following allows Python to be loaded in for literate programming.
+(org-babel-do-load-languages
+  'org-babel-load-languages
+    '((python . t)))
 
 ;;; Mail Settings
 ;; ================================================================================
